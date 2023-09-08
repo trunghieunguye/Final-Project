@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style for header */
+.top-header{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9999999999999;
+}
+
+.top-header .img-logo{
+    width: 140px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.top-header .list-options{
+    display: flex;
+    justify-content: center;
+}
+
+.top-header .list-options .listing{
+    margin-top: -35px;
+    margin-right: 70px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:3px;
+    font-size: small;
+}
+
+.top-header .list-options .a-homepage{
+    text-decoration: none;
+    color: black;
+}
+.top-header .list-options .a-homepage:hover{
+    color: rgb(99, 205, 219);
+    cursor: pointer;
+}
+
+.top-header .login-bag{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    margin-top: -35px;
+}
+.top-header .login-bag .bag-logo{
+    margin-left: 30px;
+}
+.top-header .login-bag .bag-logo:hover{
+    cursor: pointer;
+}
+.top-header .login-bag .login-logo:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Css for main-image */
+.main-image{
+    width: 100%;
+    height: 1000px;
+    object-fit: contain;
+    z-index: 1;
+    position: relative;
+}
+.trust-bod{
+    width: 400px;
+    height: 450px;
+    background-color: rgba(127, 209, 219,.8);
+    z-index: 999999;
+    position: relative;
+    margin-top: -550px;
+    margin-left: 300px;
+    padding-top: 30px;
+    padding-left: 60px;
+    letter-spacing: 1px;
+    line-height: 120px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Css for Our Story */
+.ourstory-image{
+    width: 50%;
+    height: 700px;
+    margin-top: 70px;
+}
+.big-text{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.small-text{
+    width: 550px ;
+    height: 400px;
+    line-height: 30px;
+    padding-left: 100px;
+
+}
+
+
+/* Css for Everywhere */
+
+
+.everywhere-text{
+    width: 50% ;
+    height: 600px;
+    line-height: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 190px;
+    line-height: 40px;
+}
+
+
+.bold-text{
+    width: 500px ;
+    height: 200px;
+    line-height: 50px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.everywhere-image{
+    width: 50%;
+    height: 400px;
+    margin-top: 96px;
+
+}
+.fourbot-img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for footer */
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color: rgb(99, 205, 219);
+    padding-top: 20px;
+}
+.footer .footer-text{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.contact{
+    padding-top: 40px;
+   padding-left: 500px;
+}
+
+.footer .follow-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: -60px;
+       
+}

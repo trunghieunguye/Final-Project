@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style for header */
+.top-header{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9999999999999;
+}
+
+.top-header .img-logo{
+    width: 140px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.top-header .list-options{
+    display: flex;
+    justify-content: center;
+}
+
+.top-header .list-options .listing{
+    margin-top: -35px;
+    margin-right: 70px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:3px;
+    font-size: small;
+}
+
+.top-header .list-options .a-homepage{
+    text-decoration: none;
+    color: black;
+}
+.top-header .list-options .a-homepage:hover{
+    color: rgb(99, 205, 219);
+    cursor: pointer;
+}
+
+.top-header .login-bag{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    margin-top: -35px;
+}
+.top-header .login-bag .bag-logo{
+    margin-left: 30px;
+    position: relative;
+}
+.top-header .login-bag .bag-logo .bag-quantity{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(235, 102, 102);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -12px;
+    left: 17px;
+    border-radius: 50%;
+}
+.top-header .login-bag .bag-logo:hover{
+    cursor: pointer;
+}
+.top-header .login-bag .login-logo:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* Css for slider */
+.ads-container{
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+}
+.owl-carousel .owl-theme{
+    position: relative;
+}
+
+.owl-nav{
+    display: none;
+}
+
+
+.text-ads{
+    position: absolute;
+    z-index:2 ;
+    padding-top: 120px;
+    padding-left: 350px;
+    width: 250px;
+    height: 180px;
+}
+.text-ads .bold-text{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-ads .normal-text{
+    width: 350px;
+    height: 92px;
+    font-size: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+/* Css for two girls */
+
+.content .existence{
+    width: 100%;
+    height: 820px;
+    background-color: bisque;
+    margin-top: 650px;
+    display: flex;
+}
+
+.content .existence .text-exist{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(247, 190, 225);
+}
+.content .existence .twogirl-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content .existence .story{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.content .existence .moment{
+    width: 320px;
+    height: 400px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 45px;
+    color: #fff;
+    padding-top: 70px;
+    margin-left: 220px;
+    
+}
+.content .existence .read-more2{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(247, 190, 225);
+    border: 4px solid white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+.content .existence .read-more2:hover{
+    background-color: #fff;
+    color:rgb(247, 190, 225) ;
+}
+
+/* Css for three bottles */
+.content .three-bottles{
+    width: 100%;
+    background-color: rgb(250, 204, 117);
+    display: flex;
+}
+.content .threebot-img{
+    width: 710px;
+    height: 100%;
+    object-fit: cover;
+
+}
+.content .fact{
+    font-size: 59px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 180px;
+    padding-left: 150px;
+}
+.content .read-more{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(250, 204, 117);
+    border: 4px solid white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.content .read-more:hover{
+    background-color: #fff;
+    color: rgb(250, 204, 117);
+
+}
+
+/* Css for map */
+.map .text-map{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* css for footer */
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color: rgb(99, 205, 219);
+    padding-top: 20px;
+}
+.footer .footer-text{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.contact{
+    padding-top: 40px;
+   padding-left: 500px;
+}
+
+.footer .follow-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: -60px;
+       
+}

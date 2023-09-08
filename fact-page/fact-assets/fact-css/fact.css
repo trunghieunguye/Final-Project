@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style for header */
+.top-header{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9999999999999;
+}
+
+.top-header .img-logo{
+    width: 140px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.top-header .list-options{
+    display: flex;
+    justify-content: center;
+}
+
+.top-header .list-options .listing{
+    margin-top: -35px;
+    margin-right: 70px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:3px;
+    font-size: small;
+}
+
+.top-header .list-options .a-homepage{
+    text-decoration: none;
+    color: black;
+}
+.top-header .list-options .a-homepage:hover{
+    color: rgb(99, 205, 219);
+    cursor: pointer;
+}
+
+.top-header .login-bag{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    margin-top: -35px;
+}
+.top-header .login-bag .bag-logo{
+    margin-left: 30px;
+}
+.top-header .login-bag .bag-logo:hover{
+    cursor: pointer;
+}
+.top-header .login-bag .login-logo:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+/* Css for content */
+
+.fact-container{
+    width: 100%;
+    background-color:#fff;
+    padding-top: 100px;
+    margin-bottom: 250px;
+}
+
+
+.fact-container .big-text{
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 100px;
+    padding-left: 200px;
+    letter-spacing: 4px;
+}
+
+.fact-container .small-text{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 200px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.fact-content{
+    width: 70%;
+    height: 1800px;
+    margin: 100px auto 100px auto;
+
+}
+.content-12{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.content-1{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(99, 205, 219);
+}
+.content-1 .fact-title1{
+    width: 70%;
+    height: 30%;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.content-1 .fact-sub1{
+    width: 85%;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    letter-spacing: .3px;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+
+
+
+
+.content-2{
+    width: 50%;
+    height: 600px;
+    background-color: #fff;
+}
+.content-2 .fact-title2{
+    width: 70%;
+    height: 30%;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: -30px ;
+}
+.content-2 .fact-sub2{
+    width: 85%;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    letter-spacing: .3px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+.content-34{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.content-3{
+    width: 50%;
+    height: 600px;
+    background-color: #fff;
+}
+.content-3 .fact-title3{
+    width: 70%;
+    height: 30%;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.content-3 .fact-sub3{
+    width: 85%;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    letter-spacing: .3px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+
+
+
+.content-4{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(99, 205, 219);
+}
+.content-4 .fact-title4{
+    width: 70%;
+    height: 30%;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: -30px ;
+}
+.content-4 .fact-sub4{
+    width: 85%;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    letter-spacing: .3px;
+    padding-top: 110px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+.content-56{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.content-5{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(99, 205, 219);
+}
+.content-5 .fact-title5{
+    width: 70%;
+    height: 30%;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.content-5 .fact-sub5{
+    width: 85%;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    letter-spacing: .3px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+
+
+
+.content-6{
+    width: 50%;
+    height: 600px;
+    background-color: #fff;
+}
+.content-6 .fact-title6{
+    width: 70%;
+    height: 30%;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: -30px ;
+}
+.content-6 .fact-sub6{
+    width: 85%;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    letter-spacing: .3px;
+    padding-top: 110px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for footer */
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color: rgb(99, 205, 219);
+    padding-top: 20px;
+}
+.footer .footer-text{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.contact{
+    padding-top: 40px;
+   padding-left: 500px;
+}
+
+.footer .follow-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: -60px;
+       
+}
