@@ -51,8 +51,22 @@
     margin-right: 60px;
     margin-top: -35px;
 }
+.top-header .bag-quantity{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(235, 102, 102);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -12px;
+    left: 17px;
+    border-radius: 50%;
+}
 .top-header .login-bag .bag-logo{
     margin-left: 30px;
+    position: relative;
 }
 .top-header .login-bag .bag-logo:hover{
     cursor: pointer;
@@ -60,8 +74,12 @@
 .top-header .login-bag .login-logo:hover{
     cursor: pointer;
 }
-
-
+.nav-bars{
+    display: none;
+}
+.bars-options{
+    display: none;
+}
 
 
 
@@ -71,7 +89,8 @@
     width: 100%;
     background-color:#fff;
     padding-top: 100px;
-    margin-bottom: 250px;
+    margin-bottom: -100px;
+    position: relative;
 }
 
 
@@ -94,7 +113,7 @@
 
 .fact-content{
     width: 70%;
-    height: 1800px;
+    height: 2000px;
     margin: 100px auto 100px auto;
 
 }
@@ -290,8 +309,43 @@
 
 
 
+/* Css for dark mode */
+
+.dark-mode{
+    background-color: rgb(39, 37, 37);
+    color: #fff;
+}
+
+.fact-container.dark-mode .content-1{
+    background-color: rgb(39, 37, 37);
+}
+.fact-container.dark-mode .content-4{
+    background-color: rgb(39, 37, 37);
+}
+.fact-container.dark-mode .content-5{
+    background-color: rgb(39, 37, 37);
+}
 
 
+.fact-container.dark-mode .content-2{
+    background-color: rgb(79, 82, 89);
+}
+.fact-container.dark-mode .content-3{
+    background-color: rgb(79, 82, 89);
+}
+.fact-container.dark-mode .content-6{
+    background-color: rgb(79, 82, 89);
+}
+
+.fact-container .switch-dark{
+    position: absolute;
+    top: 220px;
+    right: 150px;
+    font-size: 20px;
+}
+.fact-container .switch-dark:hover{
+    cursor: pointer;
+}
 
 
 

@@ -60,9 +60,13 @@
 .top-header .login-bag .login-logo:hover{
     cursor: pointer;
 }
+.bars-options{
+    display: none;
+}
 
-
-
+.nav-bars{
+    display: none;
+}
 
 
 
@@ -84,6 +88,7 @@
     margin-left: 300px;
     padding-top: 30px;
     padding-left: 60px;
+    padding-right: 35px;
     letter-spacing: 1px;
     line-height: 120px;
     font-size: 50px;

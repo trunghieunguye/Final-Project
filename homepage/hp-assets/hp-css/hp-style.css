@@ -75,9 +75,13 @@
     cursor: pointer;
 }
 
+.nav-bars{
+    display: none;
+}
 
-
-
+.bars-options{
+    display: none;
+}
 /* Css for slider */
 .ads-container{
     width: 100%;

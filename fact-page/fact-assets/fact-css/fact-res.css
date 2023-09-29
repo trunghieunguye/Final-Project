@@ -1,0 +1,164 @@
+@media (max-width: 1023px){
+
+.top-header .list-options{
+    display: none;
+}
+.nav-bars{
+    margin-left: 30px;
+    display: block;
+}
+.top-header .bars-options{
+    width: 75% ;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    z-index: 11;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: block;
+    line-height: 180px;
+    padding-left: 100px;
+    transform: translateX(0%);
+}
+.close-bars{
+    font-size: 30px;
+    margin-left: -50px;
+}
+
+.top-header .listing-bars>a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 10;
+    display: block;
+}
+
+
+
+
+
+
+.fact-container{
+    width: 200%;
+}
+.fact-container .big-text{
+    margin-left: -100px;
+}
+.fact-container .small-text{
+    margin-left: -100px;
+}
+.fact-container .switch-dark{
+    margin-right: -40px;
+}
+
+
+
+.fact-container .fact-content{
+    height: auto;
+}
+
+
+.fact-container .content-12{
+    display: block;
+    height: auto;
+}
+
+.fact-container .content-1{
+    width: 100%;
+    background-color: #fff;
+}
+
+.fact-container .content-2{
+    width: 100%;
+    background-color: rgb(99, 205, 219);
+}
+
+
+.fact-container .content-34{
+    display: block;
+    height: auto;
+}
+
+.fact-container .content-3{
+    width: 100%;
+    background-color: #fff;
+}
+
+.fact-container .content-4{
+    width: 100%;
+    background-color: rgb(99, 205, 219);
+}
+
+
+
+
+.fact-container .content-56{
+    display: block;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.fact-container .content-5{
+    width: 100%;
+    background-color: #fff;
+}
+
+.fact-container .content-6{
+    width: 100%;
+    background-color: rgb(99, 205, 219);
+}
+
+.fact-container.dark-mode .content-1{
+    background-color: rgb(39, 37, 37);
+}
+.fact-container.dark-mode .content-3{
+    background-color: rgb(39, 37, 37);
+}
+.fact-container.dark-mode .content-5{
+    background-color: rgb(39, 37, 37);
+}
+
+
+.fact-container.dark-mode .content-2{
+    background-color: rgb(79, 82, 89);
+}
+.fact-container.dark-mode .content-4{
+    background-color: rgb(79, 82, 89);
+}
+.fact-container.dark-mode .content-6{
+    background-color: rgb(79, 82, 89);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 200%;
+}
+.footer .contact{
+    margin-left: -280px;
+}
+}

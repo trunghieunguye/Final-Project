@@ -6,12 +6,15 @@ document.addEventListener("DOMContentLoaded", function() {
   const open = document.querySelector('.bag-logo')
   const close = document.querySelector('.close-icon')
   const cartContainer = document.querySelector('.cart-container')
+  const cardAdd = document.querySelector('.card-button')
+  const overLay = document.querySelector('.overlay')
 
   open.addEventListener('click', function(){
     cartContainer.style.transform = "translateX(0%)"
     cartContainer.style.transition = ".9s ease"
     close.style.transform = "rotate(360deg)"
     close.style.transition = ".9s ease"
+    overLay.style.display = "block"
   });
 
   
@@ -21,15 +24,18 @@ document.addEventListener("DOMContentLoaded", function() {
     cartContainer.style.transition = ".9s ease"
     close.style.transform = "rotate(180deg)"
     close.style.transition = ".9s ease"
+    overLay.style.display = "none"
+    
   });
 
-  cartContainer.addEventListener('click', function(event){
-    if(event.target.classList.contains('cart-container') === true){
-      cartContainer.style.transform = "translateX(100%)";
-      cartContainer.style.transition = ".9s ease";
-    }
-  })
 
+  overLay.addEventListener('click', function(){
+    cartContainer.style.transform = "translateX(100%)"
+    cartContainer.style.transition = ".9s ease"
+    close.style.transform = "rotate(180deg)"
+    close.style.transition = ".9s ease"
+    overLay.style.display = "none"
+  });
  
  }
 closeCart();
@@ -65,10 +71,10 @@ closeCart();
     <div class="remove-icon">
     <i class="fa-solid fa-x fa-sm" style="color: #000000;"></i>
   </div>
-  <div><img src="./shop-assets/shop-img/bot1-shop.jpg" alt="" class="cart-img"></div>
+  <div><img src="${productImg}" alt="" class="cart-img"></div>
   <div class="text-cart-row">
-    <div class="name-cart-row">Sugar Free Probiotic Soda - Raspberry</div>
-    <div class="price-cart-row">$49.00</div>
+    <div class="name-cart-row">${productName}</div>
+    <div class="price-cart-row">${productPrice}</div>
     <div class="quantity">
       <button class="decrease">-</button>
       <input type="text" class="count" value="1" readonly>
@@ -125,7 +131,13 @@ function cartPrice(){
 
   }
   document.querySelector('.price-total').innerHTML= '$' + total.toFixed(2) ;
-  document.querySelector('.bag-quantity').innerHTML= cartItem.length;
+  // document.querySelector('.bag-quantity').innerHTML= cartItem.length;
+
+  localStorage.setItem("quantity",JSON.stringify(cartItem.length));
+  
+  let bagQuantity = JSON.parse(localStorage.getItem("quantity"))
+  document.querySelector('.bag-quantity').innerHTML= bagQuantity;
+  
  
 }
 
@@ -190,11 +202,62 @@ function addOnly() {
 
 
 
-
-
-
-
-
    
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
+
+// Dong mo nav khi responsive
+
+
+
+
+
+// Close bars
+function closeBars() {
+  const closeBtn = document.querySelector('.close-bars')
+  const barOps =  document.querySelector('.bars-options')
+  const overLay = document.querySelector('.overlay')
+  closeBtn.addEventListener('click',function(){
+      barOps.style.transform = "translateX(100%)"
+      barOps.style.transition = ".9s ease"
+      overLay.style.display = "none"
+  })
+  overLay.addEventListener('click',function(){
+      barOps.style.transform = "translateX(100%)"
+      barOps.style.transition = ".9s ease"
+      overLay.style.display = "none"
+  })
+
+  
+}
+closeBars();
+
+function openBars(){
+  const openBtn = document.querySelector('.nav-bars')
+  const barOps =  document.querySelector('.bars-options')
+  const overLay = document.querySelector('.overlay')
+  openBtn.addEventListener('click',function(){
+      barOps.style.transform = "translateX(0%)"
+      barOps.style.transition = ".9s ease"
+      overLay.style.display = "block"
+  })
+}
+openBars();
