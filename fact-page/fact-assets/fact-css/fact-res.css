@@ -1,4 +1,4 @@
-@media (max-width: 1023px){
+@media (max-width: 1223px){
 
 .top-header .list-options{
     display: none;
@@ -52,9 +52,11 @@
 }
 .fact-container .big-text{
     margin-left: -100px;
+    font-size: 35px;
 }
 .fact-container .small-text{
     margin-left: -100px;
+    font-size: 30px;
 }
 .fact-container .switch-dark{
     margin-right: -40px;
@@ -75,6 +77,25 @@
 .fact-container .content-1{
     width: 100%;
     background-color: #fff;
+}
+.content-1 .fact-title1{
+    width: 70%;
+    height: 30%;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.content-1 .fact-sub1{
+    width: 85%;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    letter-spacing: .3px;
+    padding-top: 75px;
+    padding-left: 50px;
 }
 
 .fact-container .content-2{

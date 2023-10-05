@@ -23,37 +23,13 @@ typing(d);
 
 
 
+// Dong mo nav khi responsive
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Close bars responsive
+// Close bars
 function closeBars() {
     const closeBtn = document.querySelector('.close-bars')
     const barOps =  document.querySelector('.bars-options')
@@ -68,12 +44,12 @@ function closeBars() {
         barOps.style.transition = ".9s ease"
         overLay.style.display = "none"
     })
-
+  
     
-}
-closeBars();
-
-function openBars(){
+  }
+  closeBars();
+  
+  function openBars(){
     const openBtn = document.querySelector('.nav-bars')
     const barOps =  document.querySelector('.bars-options')
     const overLay = document.querySelector('.overlay')
@@ -82,9 +58,5 @@ function openBars(){
         barOps.style.transition = ".9s ease"
         overLay.style.display = "block"
     })
-}
-openBars();
-
-
-
-
+  }
+  openBars();

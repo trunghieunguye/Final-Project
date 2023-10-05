@@ -1,137 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+@media (max-width: 1223px){
 
-/* Style for header */
-.top-header{
-    width: 100%;
-    height: 120px;
-    background-color: #fff;
-    position: fixed;
-    z-index: 9999999999999;
-}
-
-.top-header .img-logo{
-    width: 140px;
-    height: 60px;
-    margin-top: 25px;
-    margin-left: 30px;
-}
-
-.top-header .list-options{
-    display: flex;
-    justify-content: center;
-}
-
-.top-header .list-options .listing{
-    margin-top: -35px;
-    margin-right: 70px;
-    margin-left: 80px;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing:3px;
-    font-size: small;
-}
-
-.top-header .list-options .a-homepage{
-    text-decoration: none;
-    color: black;
-}
-.top-header .list-options .a-homepage:hover{
-    color: rgb(99, 205, 219);
-    cursor: pointer;
-}
-
-.top-header .login-bag{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 60px;
-    margin-top: -35px;
-}
-.top-header .login-bag .bag-logo{
-    margin-left: 30px;
-}
-.top-header .login-bag .bag-logo:hover{
-    cursor: pointer;
-}
-.top-header .login-bag .login-logo:hover{
-    cursor: pointer;
-}
-
-
-.bars-options,.nav-bars{
-    display: none;
-}
+    .top-header .list-options{
+        display: none;
+    }
+    .nav-bars{
+        margin-left: 30px;
+        display: block;
+    }
+    .top-header .bars-options{
+        width: 75% ;
+        height: 100%;
+        background-color:rgb(255, 255, 255);
+        z-index: 11;
+        position: fixed;
+        right: 0;
+        top: 0;
+        display: block;
+        line-height: 180px;
+        padding-left: 100px;
+        transform: translateX(0%);
+    }
+    .close-bars{
+        font-size: 30px;
+        margin-left: -50px;
+    }
+    
+    .top-header .listing-bars>a{
+        color:rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 30px;
+        
+    }
+    .overlay{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.3);
+        z-index: 10;
+        display: block;
+    }
 
 
 
 
 
 
+    
+    .fact-container{
+        width: 100%;
+        background-color:#fff;
+        padding-top: 100px;
+        margin-bottom: 250px;
+        position: relative;
+    }
+    
+    
+    .fact-container .big-text{
+        font-size: 60px;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 100px;
+        padding-left: 100px;
+        letter-spacing: 4px;
+        width: 600px;
+    }
+    
+    .fact-container .small-text{
+        font-size: 35px;
+        font-weight: 100;
+        font-family: 'Montserrat', sans-serif;
+        padding-left: 100px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        padding-bottom: 100px;
+        width: 500px;
+    } 
+    
 
 
 
 
 
-
-/* Css for content */
-
-.fact-container{
-    width: 100%;
-    background-color:#fff;
-    padding-top: 100px;
-    margin-bottom: 250px;
-    position: relative;
-}
-
-
-.fact-container .big-text{
-    font-size: 55px;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 100px;
-    padding-left: 200px;
-    letter-spacing: 4px;
-}
-
-.fact-container .small-text{
-    font-size: 30px;
-    font-weight: 100;
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 200px;
-    margin-top: 30px;
-    letter-spacing: 1px;
-}
-
-.fact-content{
-    width: 70%;
-    height: 1800px;
-    margin: 100px auto 100px auto;
-
-}
-.content-12{
-    width: 100%;
-    height: 600px;
-    display: flex;
-}
-.content-1{
-    width: 50%;
-    height: 600px;
-    background-color: #E21C20;
-    position: relative;
-}
+    .fact-container{
+        height: auto;
+    }
 
 
 
-
+    
+    .fact-content{
+        width: 100%;
+        height: auto;
+        margin: 100px auto 100px auto;
+        display:contents;
+    
+    }
+    .content-12{
+        width: 100%;
+        height: 600px;
+        display: contents;
+    }
+    
+    .content-1{
+        width: 200%;
+        height: 600px;
+        background-color: #E21C20;
+        position: relative;
+    }
+    
+    
 
 
 .content-1 .fact-title1{
     width: 70%;
     height: 30%;
-    font-size: 27px;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     padding-top: 50px;
     padding-left: 50px;
@@ -141,8 +125,8 @@
 .content-1 .fact-sub1{
     width: 85%;
     height: 100%;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 30px;
     letter-spacing: .3px;
     padding-top: 75px;
@@ -152,8 +136,8 @@
 
 .button-1{
     position: absolute;
-    margin-top: -340px;
-    margin-left: 160px;
+    margin-top: -320px;
+    margin-left: 270px;
     width: 150px;
     height: 50px;
     background-color:#E21C20 ;
@@ -175,15 +159,29 @@
 
 
 .content-2{
-    width: 50%;
+    width: 100%;
     height: 600px;
     background-color: #fff;
 }
 
 .content2-img{
-    width: 100%;
-    height: 100%;
+    width: 200%;
+    height: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -193,13 +191,14 @@
 
 .content-34{
     width: 100%;
-    height: 600px;
-    display: flex;
+    height: auto;
+    display: contents;
 }
 .content-3{
-    width: 50%;
-    height: 600px;
+    width: 100%;
+    height: auto;
     background-color: #fff;
+    margin-top:200px;
 }
 
 
@@ -208,14 +207,14 @@
 
 
 .content-4{
-    width: 50%;
-    height: 600px;
+    width: 200%;
+    height: 700px;
     background-color: #994545;
 }
 .content-4 .fact-title4{
     width: 70%;
     height: 30%;
-    font-size: 27px;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     padding-top: 50px;
     padding-left: 50px;
@@ -225,8 +224,8 @@
 .content-4 .fact-sub4{
     width: 85%;
     height: 100%;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 30px;
     letter-spacing: .3px;
     padding-top: 110px;
@@ -237,8 +236,8 @@
 
 .button-4{
     position: absolute;
-    margin-top: -300px;
-    margin-left: 160px;
+    margin-top: -320px;
+    margin-left: 280px;
     width: 150px;
     height: 50px;
     background-color:#994545 ;
@@ -262,18 +261,18 @@
 
 .content-56{
     width: 100%;
-    height: 600px;
-    display: flex;
+    height: auto;
+    display: contents;
 }
 .content-5{
-    width: 50%;
+    width: 200%;
     height: 600px;
     background-color: #D4BDA7;
 }
 .content-5 .fact-title5{
     width: 70%;
     height: 30%;
-    font-size: 27px;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     padding-top: 50px;
     padding-left: 50px;
@@ -283,8 +282,8 @@
 .content-5 .fact-sub5{
     width: 85%;
     height: 100%;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 30px;
     letter-spacing: .3px;
     padding-top: 50px;
@@ -295,8 +294,8 @@
 
 .button-5{
     position: absolute;
-    margin-top: -350px;
-    margin-left: 160px;
+    margin-top: -320px;
+    margin-left: 280px;
     width: 150px;
     height: 50px;
     background-color: #D4BDA7;
@@ -317,7 +316,7 @@
 
 
 .content-6{
-    width: 50%;
+    width: 100%;
     height: 600px;
     background-color: #fff;
 }
@@ -348,14 +347,15 @@
 
 .content-78{
     width: 100%;
-    height: 600px;
-    display: flex;
+    height: auto;
+    display: contents;
     
 }
 .content-7{
-    width: 50%;
+    width: 100%;
     height: 600px;
     background-color: #fff;
+    margin-top: 200px;
 }
 
 
@@ -364,14 +364,16 @@
 
 
 .content-8{
-    width: 50%;
-    height: 600px;
+    width: 200%;
+    height: 700px;
     background-color: #E8C723;
+    margin-top: 200px;
+    padding-top: 50px;
 }
 .content-8 .fact-title8{
     width: 70%;
     height: 30%;
-    font-size: 27px;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     padding-top: 50px;
     padding-left: 50px;
@@ -381,8 +383,8 @@
 .content-8 .fact-sub8{
     width: 85%;
     height: 100%;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 30px;
     letter-spacing: .3px;
     padding-top: 110px;
@@ -391,8 +393,8 @@
 }
 .button-8{
     position: absolute;
-    margin-top: -280px;
-    margin-left: 160px;
+    margin-top: -300px;
+    margin-left: 280px;
     width: 150px;
     height: 50px;
     background-color: #E8C723;
@@ -412,37 +414,7 @@
 }
 
 
-
-.fact-container .to-top{
-    background-color: #c9c5c5;
-    position: absolute;
-    right: 80px;
-    top: 700px;
-    position: fixed;
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    color:#1f1f1f;
-    text-decoration: none;
-    opacity:0;
-    pointer-events: none;
-    transition: all .4s;
-}
-.fact-container .to-top:hover{
-    cursor: pointer;
-    font-size: 16px;
-}
-
-
-.fact-container .to-top.active {
-    bottom:32px;
-    pointer-events: auto;
-    opacity:1;
-  }
+    
 
 
 
@@ -458,51 +430,33 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* css for footer */
-.footer{
-    width: 100%;
-    height: 420px;
-    background-color: rgb(99, 205, 219);
-    padding-top: 20px;
-    margin-top: 800px;
-}
-.footer .footer-text{
-    font-size: 35px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-.contact{
-    padding-top: 40px;
-   padding-left: 500px;
-}
-
-.footer .follow-us{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-left: -60px;
-       
-}
+    .fact-container .to-top{
+        background-color: #c9c5c5;
+        position: absolute;
+        right: 40px;
+        top: 1100px;
+        position: fixed;
+        width:80px;
+        height:80px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        color:#1f1f1f;
+        text-decoration: none;
+        opacity:0;
+        pointer-events: none;
+        transition: all .4s;
+    }
+    
+    
+    
+    .footer{
+        width: 200%;
+        margin-top: -250px;
+    }
+    .footer .contact{
+        margin-left: -280px;
+    }
+    }

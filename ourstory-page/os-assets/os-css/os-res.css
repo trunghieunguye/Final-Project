@@ -1,5 +1,13 @@
-@media (max-width: 1023px){
+@media (max-width: 1223px){
+body{
+    max-width: 750px !important; 
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.top-header{
+    max-width: 750px !important; 
 
+}
 
 .top-header .list-options{
     display: none;
@@ -53,7 +61,8 @@
 }
 
 .main-image{
-    width: 300%;
+    width: 200%;
+    height: 700px;
    
 }
 .trust-bod{
@@ -66,24 +75,27 @@
 }
 .big-text{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 185px;
     font-size: 70px;
 }
 .small-text{
-    width: 950px;
+    width: 650px;
+    height: 600px;
     font-size: 27px;
     letter-spacing: 1.5px;
     display: flex;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 .everywhere-text{
     display: none;
 }
 
 .fourbot-img{
-    width: 560%;
+    width: 500%;
     margin-top: 100px;
-    padding-left: 70px;
+    margin-left: -90px;
+
 
 }
 
@@ -106,8 +118,13 @@
 
 .footer{
     width: 300%;
+    margin-left: -200px;
+   
 }
 .footer .contact{
-    margin-left: -90px;
+    transform: translateX(-70px);
+}
+.follow-us{
+    transform: translateX(10px);
 }
 }
