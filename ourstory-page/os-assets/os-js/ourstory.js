@@ -15,7 +15,7 @@ function typing(){
     }
     setTimeout(typing, 100)
 }
-typing(d);
+typing();
 
 
 
