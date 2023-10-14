@@ -32,6 +32,9 @@
         font-size: 30px;
         
     }
+    .bars-options{
+        display: none;
+    }
     .overlay{
         position: fixed;
         top: 0;

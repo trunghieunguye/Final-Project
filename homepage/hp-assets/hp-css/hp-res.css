@@ -1,10 +1,19 @@
-@media (max-width: 1223px){
+@media (max-width: 1023px){
 
-
-    .top-header .list-options{
+    body{
+        max-width: 750px !important; 
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .top-header{
+        max-width: 750px !important; 
+    
+    }
+    
+    .top-header .list-options .listing{
         display: none;
     }
-    .nav-bars{
+    .top-header .login-bag .nav-bars{
         margin-left: 30px;
         display: block;
     }
@@ -20,6 +29,7 @@
         line-height: 180px;
         padding-left: 100px;
         transform: translateX(0%);
+        
     }
     .close-bars{
         font-size: 30px;
@@ -32,6 +42,8 @@
         font-size: 30px;
         
     }
+    
+    
     .overlay{
         position: fixed;
         top: 0;
@@ -40,8 +52,23 @@
         left: 0;
         background-color: rgba(0,0,0,0.3);
         z-index: 10;
-        display: block;
+        display: none;
     }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     /* css for content */
@@ -63,17 +90,20 @@
         position: absolute;
         z-index:2 ;
         padding-top: 100px;
-        padding-left: 100px;
-        width: 500px;
-        height: 400px;
+        padding-left: auto;
+        background-image: url('../hp-images/coca-bottle.webp');
+        background-repeat: no-repeat;
+        background-size: 2000px 500px;
        
     }
     
     .text-ads .bold-text{
         font-size: 50px;
         font-family: 'Montserrat', sans-serif;
-        width: 500px;
-        height: 52px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 100px;
     }
     .text-ads .normal-text{
         width: 510px;
@@ -84,20 +114,24 @@
         line-height: 35px;
     }
 
+
+    
+
     .twogirl-img{
         display: none;
     }
 
     .content .existence{
-        width: 200%;
+        width: 10000px;
         height: 850px;
         background-color: bisque;
-        margin-top: 500px;
+        margin-top: 200px;
+        padding-left: 1000px;
+        
     }
 
     .content .existence .text-exist{
-        width: 10000px;
-        margin-left: 0px;
+        width: 200%;
         height: 100%;
         background-color: rgb(247, 190, 225);
     }
@@ -109,6 +143,7 @@
         display: flex;
         justify-content: center;
         padding-top: 100px;
+        margin-left: -10000px;
     }
     .content .existence .read-more2{
         margin-left: 280px;
@@ -122,6 +157,9 @@
 
 
 
+
+
+
     .content .three-bottles{
         width: 200%;
         height: 500px;
@@ -129,7 +167,10 @@
         margin-top: 650px;
         display: block;
     }
-    
+    .content .three-bottles .right-threebot{
+        display: none;
+        
+    }
     .threebot-img{
         margin-top: -685px;
         width: 500%;
@@ -159,7 +200,8 @@
 
 
     .footer{
-        width: 200%;
+        width: 800%;
+        padding-left: 20000px;
     }
     .footer .contact{
         margin-left: -280px;
